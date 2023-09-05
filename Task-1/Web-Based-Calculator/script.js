@@ -1,6 +1,6 @@
 let string = "";
 let buttons = document.querySelectorAll(
-  ".btn, .btn-grey, .btn-orange,.btn-last"
+  ".btn, .btn-grey, .btn-orange,.btn-last,.btn-green,.btn-red"
 );
 
 buttons.forEach((element) => {

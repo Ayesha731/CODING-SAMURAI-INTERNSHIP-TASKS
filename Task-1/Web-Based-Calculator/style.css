@@ -4,13 +4,19 @@ body{
     padding: 0;
     font-family: 'Dancing Script', cursive;
 font-family: 'Roboto', sans-serif;
+background-image: url(1.jpg);
+background-position: center;
+background-size: cover;
 
 }
 h1{
+    margin-top: 80px;
     text-align: center;
+    
 }
 
 .container{
+  margin-top: 100px;
     width: 20%;
     height: 60vh;
     background-color: rgb(28, 27, 27);
@@ -22,7 +28,7 @@ h1{
     border-radius: 30px;
     box-sizing: border-box;
     border: 2px solid black;
-    box-shadow: 0px 0px 20px rgba(0,0,0,0.7);
+    box-shadow: 0px 0px 20px rgb(15, 14, 14);
    
     
 }
@@ -30,7 +36,7 @@ h1{
     margin: 0 8px;
 }
 
-.btn,.btn-grey,.btn-last,.btn-orange{
+.btn,.btn-grey,.btn-last,.btn-orange,.btn-red,.btn-green{
     width: 50px;
     height: 50px;
     margin: 5px 0; 
@@ -59,13 +65,21 @@ h1{
 .btn-orange{
    
     background-color: orange;
+ 
 }
 .btn-grey{
    
     background-color: grey;
+    color: black;
+}
+.btn-red{
+    background-color: rgb(187, 11, 11);
+}
+.btn-green{
+    background-color: green;
 }
 .input{
-    margin: 2px 0;
+    margin: 2px 1px;
     padding: 30px 0;
     background-color:  rgb(46, 46, 46);
     border: 2px solid black;
