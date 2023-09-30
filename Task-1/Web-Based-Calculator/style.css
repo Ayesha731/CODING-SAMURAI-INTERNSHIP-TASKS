@@ -1,129 +1,157 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Roboto&display=swap');
-body{
-    margin: 0;
-    padding: 0;
-    font-family: 'Dancing Script', cursive;
-font-family: 'Roboto', sans-serif;
-background-image: url(1.jpg);
-background-position: center;
-background-size: cover;
-
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Roboto&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Dancing Script", cursive, "Roboto", sans-serif;
+  background-image: url(1.jpg);
+  background-position: center;
+  background-size: cover;
 }
-h1{
-    margin-top: 80px;
-    text-align: center;
-    
+h1 {
+  margin-top: 80px;
+  text-align: center;
 }
 
-.container{
+.container {
   margin-top: 100px;
-    width: 20%;
-    height: 60vh;
-    background-color: rgb(28, 27, 27);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    border-radius: 30px;
-    box-sizing: border-box;
-    border: 2px solid black;
-    box-shadow: 0px 0px 20px rgb(15, 14, 14);
-   
-    
+  width: 280px;
+  height: 60vh;
+  background-color: rgb(28, 27, 27);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 30px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  box-shadow: 0px 0px 20px rgb(15, 14, 14);
 }
-.row{
-    margin: 0 8px;
+.row {
+  margin: 0 8px;
 }
 
-.btn,.btn-grey,.btn-last,.btn-orange,.btn-red,.btn-green{
-    width: 50px;
-    height: 50px;
-    margin: 5px 0; 
-    border-radius: 50%;
-    border: 2px solid black;
-    cursor: pointer;
-    background-color:  rgb(46, 46, 46);
-    font-size: 18px;
-    color: white;
-    
-    
+.btn,
+.btn-grey,
+.btn-last,
+.btn-orange,
+.btn-red,
+.btn-green {
+  width: 50px;
+  height: 50px;
+  margin: 5px 0;
+  border-radius: 50%;
+  border: 2px solid black;
+  cursor: pointer;
+  background-color: rgb(46, 46, 46);
+  font-size: 18px;
+  color: white;
 }
-.btn-last{
-    width: 50px;
-    height: 50px;
-    margin: 5px 0;
-    border-radius: 25px;
-    padding: 0 50px;
-    border: 2px solid black;
-    cursor: pointer;
-    background-color:  rgb(46, 46, 46);
-    font-size: 18px;  
-    color: white;
-    
+.btn-last {
+  width: 50px;
+  height: 50px;
+  margin: 5px 0;
+  border-radius: 25px;
+  padding: 0 50px;
+  border: 2px solid black;
+  cursor: pointer;
+  background-color: rgb(46, 46, 46);
+  font-size: 18px;
+  color: white;
 }
-.btn-orange{
-   
-    background-color: orange;
- 
+.btn-orange {
+  background-color: orange;
 }
-.btn-grey{
-   
-    background-color: grey;
-    color: black;
+.btn-grey {
+  background-color: grey;
+  color: black;
 }
-.btn-red{
-    background-color: rgb(187, 11, 11);
+.btn-red {
+  background-color: rgb(187, 11, 11);
 }
-.btn-green{
-    background-color: green;
+.btn-green {
+  background-color: green;
 }
-.input{
-    margin: 2px 1px;
-    padding: 30px 0;
-    background-color:  rgb(46, 46, 46);
-    border: 2px solid black;
-    font-size: 18px;
-    border-radius: 15px;
-    color: white;
+.input {
+  margin: 2px 1px;
+  padding: 30px 0;
+  background-color: rgb(46, 46, 46);
+  border: 2px solid black;
+  font-size: 18px;
+  border-radius: 15px;
+  color: white;
 }
-.input:active{
-    border-color: black;
+.input:active {
+  border-color: black;
 }
 /* Media Query for smaller screens */
 @media only screen and (max-width: 480px) {
-    .container {
-        width: 90%;
-        height: 70vh;
-    }
+  .container {
+    width: 70%;
+    height: 70vh;
+  }
 }
-
 
 /* Media Query for tablet screens */
-@media only screen and (min-width: 480px) and (max-width: 1024px) {
-    .container {
-        width: 90%;
-        height: 75vh;
-        padding: 20px;
-    }
+@media only screen and (min-width: 480px) and (max-width: 720px) {
+  .container {
+    width: 55%;
+    height: 75vh;
+    padding: 20px;
+  }
 
-    .btn, .btn-grey, .btn-last, .btn-orange {
-        width: 70px;
-        height: 70px;
-        font-size: 22px;
-    }
+  .btn,
+  .btn-grey,
+  .btn-last,
+  .btn-orange,
+  .btn-red,
+  .btn-green {
+    width: 55px;
+    height: 55px;
+    font-size: 22px;
+  }
 
-    .btn-last {
-        width: 70px;
-        height: 70px;
-        padding: 0 70px;
-    }
+  .btn-last {
+    width: 55px;
+    height: 55px;
+    padding: 0 55px;
+  }
 
-    .input {
-        margin: 5px 0;
-        padding: 35px 0;
-        font-size: 22px;
-    }
+  .input {
+    margin: 5px 0;
+    padding: 35px 0;
+    font-size: 22px;
+  }
 }
+/* Media Query for tablet screens */
+@media only screen and (min-width: 720px) and (max-width: 1024px) {
+  .container {
+    width: 40%;
+    height: 70vh;
+    padding: 20px;
+  }
 
+  .btn,
+  .btn-grey,
+  .btn-last,
+  .btn-orange,
+  .btn-red,
+  .btn-green {
+    width: 55px;
+    height: 55px;
+    font-size: 22px;
+    margin-left: 5px;
+  }
 
+  .btn-last {
+    width: 55px;
+    height: 55px;
+    padding: 0 58px;
+  }
+
+  .input {
+    margin: 7px 0;
+    padding: 35px 0;
+    font-size: 22px;
+  }
+}
